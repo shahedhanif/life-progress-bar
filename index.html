@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Progress Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="hourglass.svg" alt="Hourglass" />
+
+        <div class="day row-flex">
+            <p>DAY</p>
+            <p id="day-el" class="stat">0%</p>
+        </div>
+        <div class="pb-bg">
+            <div id="day-pb"></div>
+        </div>
+
+        <div class="week row-flex">
+            <p>WEEK</p>
+            <p id="week-el" class="stat">0%</p>
+        </div>
+        <div class="pb-bg">
+            <div id="week-pb"></div>
+        </div>
+
+        <div class="month row-flex">
+            <p>MONTH</p>
+            <p id="month-el" class="stat">0%</p>
+        </div>
+        <div class="pb-bg">
+            <div id="month-pb"></div>
+        </div>
+
+        <div class="year row-flex">
+            <p>YEAR</p>
+            <p id="year-el" class="stat">0%</p>
+        </div>
+        <div class="pb-bg">
+            <div id="year-pb"></div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
